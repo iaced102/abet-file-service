@@ -1,7 +1,7 @@
 version: "3"
 services: 
   web:
-    container_name: echo_app
+    container_name: file_service_echo_app
     build: ./
     command: go run main.go
     volumes:
