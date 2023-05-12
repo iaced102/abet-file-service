@@ -13,4 +13,4 @@ COPY go.mod  /echo_app/go.mod
 RUN go mod download
 
 
-EXPOSE 1234
+EXPOSE 1236
